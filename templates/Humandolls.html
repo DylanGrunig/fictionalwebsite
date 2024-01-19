@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Human dolls</title>
+  <h2><a href='/bootstrap-grid'>Go back home</a><br /></h2>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Add custom CSS for spacing */
+    .custom-col {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Human Dolls</h1>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3 mx-auto custom-col">
+      <h3>More Dolls</h3>
+      <img src="/static/HumanDoll.png" alt="Doll" class="img-fluid">
+    </div>
+    <div class="col-sm-3 mx-auto custom-col">
+      <img src="/static/HumanDoll2.png" alt="Doll" class="img-fluid">
+    </div>
+    <div class="col-sm-3 mx-auto custom-col">
+      <img src="/static/HumanDoll3.png" alt="Doll" class="img-fluid">
+    </div>
+    <div class="col-sm-3 mx-auto custom-col">
+      <img src="/static/HumanDoll4.png" alt="Doll" class="img-fluid">
+    </div>
+    <div class="col-sm-3 mx-auto custom-col">
+      <img src="/static/HumanDoll5.png" alt="Doll" class="img-fluid">
+    </div>
+    <div class="col-sm-3 mx-auto custom-col">
+      <img src="/static/HumanDoll6.png" alt="Doll" class="img-fluid">
+    </div>
+    <div class="col-sm-3 mx-auto custom-col">
+      <img src="/static/HumanDoll7.png" alt="Doll" class="img-fluid">
+    </div>
+    <div class="col-sm-3 mx-auto custom-col">
+      <img src="/static/HumanDoll8.png" alt="Doll" class="img-fluid">
+    </div>
+  </div>
+
+  <!-- Form with a hidden input for the URL -->
+  <form action="/redirect" method="get">
+    <input type="hidden" name="redirect_url" value="http://127.0.0.1:5000/bootstrap-grid">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>

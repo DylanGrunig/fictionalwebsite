@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Human dolls</title>
+  <h2><a href='/bootstrap-grid'>Go back home</a><br /></h2>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Human Dolls</h1>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 text-center">
+      <h3>Small Dolls</h3>
+      <p>Our smallest of dolls!</p>
+      <p>For photos, or if you like your dolls extra tiny.</p>
+      <img src="/static/TinyDoll.png" alt="Doll" class="img-fluid">
+      <img src="/static/TinyDoll2.png" alt="Doll" class="img-fluid">
+    </div>
+    <div class="col-sm-4 text-center">
+      <h3>Regular dolls 2</h3>
+      <p>Have the most fun with these dolls</p>
+      <p>For your kids to play with</p>
+      <img src="/static/MediumDoll.png" alt="Doll" class="img-fluid">
+      <img src="/static/MediumDoll2.png" alt="Doll" class="img-fluid">
+    </div>
+    <div class="col-sm-4 text-center">
+      <h3>Big dolls</h3>
+      <p>Unnecessarily large dolls</p>
+      <p>In case you have an extra-large imagination</p>
+      <img src="/static/BigDoll.png" alt="Doll" class="img-fluid">
+      <img src="/static/BigDoll2.png" alt="Doll" class="img-fluid">
+    </div>
+  </div>
+
+  <!-- Form with a hidden input for the URL -->
+  <form action="/redirect" method="get">
+    <input type="hidden" name="redirect_url" value="http://127.0.0.1:5000/bootstrap-grid">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
